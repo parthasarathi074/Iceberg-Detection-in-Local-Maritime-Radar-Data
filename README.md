@@ -1,19 +1,15 @@
-# 🧊 Iceberg Detection (Streamlit + Render)
+# Iceberg Detection in Local Maritime
 
-## 🚀 Deploy on Render
+A Streamlit app to predict whether sensor data corresponds to an iceberg or not.
 
-1. Push this folder to a **GitHub** repository.
-2. Go to [Render](https://render.com) → New Web Service → Connect GitHub.
-3. Use:
-   - **Build Command:** `pip install -r requirements.txt`
-   - **Start Command:** `streamlit run app.py --server.port=10000 --server.address=0.0.0.0`
-4. Wait for deployment — Render gives you a live link.
+## How to Run Locally
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Run the app:
+   ```bash
+   streamlit run app.py
+   ```
 
-## 🧩 Local Run
-```
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-## 🧠 Model
-Place your trained `model.pkl` file in the same directory.
+Ensure your trained model file (`model.pkl`) is in the same directory.
